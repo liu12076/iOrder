@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iOrder.iml" filepath="$PROJECT_DIR$/iOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iorderclient/iorderclient.iml" filepath="$PROJECT_DIR$/iorderclient/iorderclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iorderserve/iorderserve.iml" filepath="$PROJECT_DIR$/iorderserve/iorderserve.iml" />
+    </modules>
+  </component>
+</project>

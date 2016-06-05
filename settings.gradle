@@ -1,1 +1,1 @@
-include ':iorderserve', ':iorderclient'
+include ':iorderclient', ':iorderserve'

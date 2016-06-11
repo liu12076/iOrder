@@ -19,5 +19,14 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="action_logout">登出</string>
+    <string name="app_name">iOrderServe</string>
+    <string name="app_title">訂單資訊</string>
+    <string name="dollars">元</string>
+    <string name="finish_delivering">送貨結束</string>
+    <string name="notification_content">送貨中</string>
+    <string name="notification_title">送貨狀態</string>
+    <string name="start_delivering">開始送貨</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="total_cost">總花費 : </string>
 </resources>

@@ -6,4 +6,6 @@
     <string name="finish_delivering">Finish Delivering</string>
     <string name="notification_title">Delivering Status</string>
     <string name="notification_content">Delivering</string>
+    <string name="total_cost">Total cost : </string>
+    <string name="dollars">dollars</string>
 </resources>

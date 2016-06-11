@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iOrderServe</string>
+    <string name="action_logout">登出</string>
+    <string name="app_title">訂單資訊</string>
+    <string name="start_delivering">開始送貨</string>
+    <string name="finish_delivering">送貨結束</string>
+    <string name="notification_title">送貨狀態</string>
+    <string name="notification_content">送貨中</string>
+    <string name="total_cost">總花費 : </string>
+    <string name="dollars">元</string>
+</resources>

@@ -6,10 +6,12 @@ package com.eeccs.jimmy.iorderserve;
 public class OrderDetailItem {
     public String good;
     public String amount;
+    public String total_cost;
 
-    public OrderDetailItem(String good, String amount) {
+    public OrderDetailItem(String good, String amount, String total_cost) {
         this.good = good;
         this.amount = amount;
+        this.total_cost = total_cost;
     }
 
     public String getGood()
@@ -32,4 +34,13 @@ public class OrderDetailItem {
         this.amount = amount;
     }
 
+    public String getTotal_cost()
+    {
+        return this.total_cost;
+    }
+
+    public void setTotal_cost(String total_cost)
+    {
+        this.total_cost = total_cost;
+    }
 }

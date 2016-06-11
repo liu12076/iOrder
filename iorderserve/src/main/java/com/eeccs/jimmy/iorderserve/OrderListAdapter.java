@@ -91,8 +91,8 @@ public class OrderListAdapter extends BaseAdapter {
 
         // assign values if the object is not null
         if (mData != null) {
-            viewHolder.name.setText(obj.getName());
-            viewHolder.place.setText(obj.getPlace());
+            viewHolder.name.setText(obj.getCustomer());
+            viewHolder.place.setText(obj.getPickup_location());
         }
         return view;
     }

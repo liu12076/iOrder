@@ -7,49 +7,66 @@ import java.util.List;
  * Created by User on 2016/5/29.
  */
 public class OrderItem {
-    private String id;
-    private String name;
-    private String place;
+    private String oid;
+    private String customer;
+    private String pickup_location;
+    private String pickup_time;
+    private int start_flag;
+    private int end_flag;
     private List<OrderDetailItem> mOrderDetialList = new ArrayList<OrderDetailItem>();
 
-    public OrderItem(String name, String place,String id) {
-        this.name = name;
-        this.place = place;
-        this.id = id;
+    public OrderItem(String oid, String customer,String pickup_location, String pickup_time, int start_flag, int end_flag) {
+        this.oid = oid;
+        this.customer = customer;
+        this.pickup_location = pickup_location;
+        this.pickup_time = pickup_time;
+        this.start_flag = start_flag;
+        this.end_flag = end_flag;
     }
+
 
     public void addDetailItem(OrderDetailItem detial) {
         this.mOrderDetialList.add(detial);
     }
 
-    public String getName()
+    public void start_delivering()
     {
-        return this.name;
+        this.start_flag = 1;
     }
 
-    public void setName(String name)
+    public void finish_delivering()
     {
-        this.name = name;
+        this.end_flag = 1;
     }
 
-    public String getPlace()
+    public String getOid()
     {
-        return this.place;
+        return this.oid;
     }
 
-    public void setPlace(String place)
+    public String getCustomer()
     {
-        this.place = place;
+        return this.customer;
     }
 
-    public String getId()
+    public String getPickup_location()
     {
-        return this.id;
+        return this.pickup_location;
     }
 
-    public void setId(String id)
+    public String getPickup_time()
     {
-        this.id = id;
+        return this.pickup_time;
+    }
+
+    public int getStart_flag()
+    {
+        return this.start_flag;
+    }
+
+    public int getEnd_flag()
+    {
+        return this.end_flag;
     }
 
     public List<OrderDetailItem> getmOrderDetialList()

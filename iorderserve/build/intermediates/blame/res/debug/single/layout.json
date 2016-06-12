@@ -12,12 +12,20 @@
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
@@ -32,20 +40,28 @@
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\layout\\activity_order_detail.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -54,6 +70,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
@@ -70,6 +90,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -106,6 +130,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -152,6 +180,10 @@
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -174,6 +206,14 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",

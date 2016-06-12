@@ -26,50 +26,30 @@ import java.util.Arrays;
 public class LoginActivity extends Activity {
     CallbackManager callbackManager;
     private AccessToken accessToken;
-    private Button loginButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         FacebookSdk.sdkInitialize(getApplicationContext());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
 
         //宣告callback Manager
 
         callbackManager = CallbackManager.Factory.create();
+        //找到login button
 
-        //找到button
+        LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
 
-        loginButton = (Button) findViewById(R.id.login_button);
-
-        loginButton.setOnClickListener(new Button.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile", "user_friends"));
-            }
-        });
-
-        //幫 LoginManager 增加callback function
-
-        //這邊為了方便 直接寫成inner class
-
-        LoginManager.getInstance().registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-
+        //幫loginButton增加callback function
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             //登入成功
 
             @Override
             public void onSuccess(LoginResult loginResult) {
-
-                //accessToken之後或許還會用到 先存起來
-
                 accessToken = loginResult.getAccessToken();
-
                 Log.d("FB", "access token got.");
-
                 //send request and call graph api
-
                 GraphRequest request = GraphRequest.newMeRequest(
                         accessToken,
                         new GraphRequest.GraphJSONObjectCallback() {
@@ -88,32 +68,37 @@ public class LoginActivity extends Activity {
 
                             }
                         });
-
                 //包入你想要得到的資料 送出request
-
                 Bundle parameters = new Bundle();
                 parameters.putString("fields", "id,name,link");
                 request.setParameters(parameters);
                 request.executeAsync();
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
             }
 
             //登入取消
-
             @Override
             public void onCancel() {
                 // App code
-
                 Log.d("FB", "CANCEL");
-            }
 
+            }
             //登入失敗
 
             @Override
             public void onError(FacebookException exception) {
                 // App code
-
+                Toast.makeText(LoginActivity.this, "Error!", Toast.LENGTH_LONG).show();
                 Log.d("FB", exception.toString());
             }
+
         });
+    }
+
+    @Override
+    protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        callbackManager.onActivityResult(requestCode, resultCode, data);
     }
 }

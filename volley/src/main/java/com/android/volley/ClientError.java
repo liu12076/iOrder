@@ -28,7 +28,6 @@ public class ClientError extends ServerError {
         super(networkResponse);
     }
 
-
     public ClientError() {
         super();
     }

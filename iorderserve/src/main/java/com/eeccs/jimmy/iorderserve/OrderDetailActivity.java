@@ -105,7 +105,7 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
 
         Log.i(TAG, "requestLocationUpdates...");
         // 註冊 listener，兩個 0 不適合在實際環境使用，太耗電
-        this.locationMgr.requestLocationUpdates(provider, 1000, 1, this);
+        this.locationMgr.requestLocationUpdates(provider, 0, 0, this);
 
         Log.i(TAG, "getLastKnownLocation...");
         Location location = this.locationMgr.getLastKnownLocation(provider);

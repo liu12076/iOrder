@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">iOrderServe</string>
+    <string name="facebook_app_id">1795079434060958</string>
     <string name="action_logout">登出</string>
     <string name="app_title">訂單資訊</string>
     <string name="start_delivering">開始送貨</string>

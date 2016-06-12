@@ -23,6 +23,7 @@
     <string name="app_name">iOrderServe</string>
     <string name="app_title">訂單資訊</string>
     <string name="dollars">元</string>
+    <string name="facebook_app_id">1795079434060958</string>
     <string name="finish_delivering">送貨結束</string>
     <string name="notification_content">送貨中</string>
     <string name="notification_title">送貨狀態</string>

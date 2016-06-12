@@ -285,6 +285,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="dollars">dollars</string>
+    <string name="facebook_app_id">1795079434060958</string>
     <string name="finish_delivering">Finish Delivering</string>
     <string name="notification_content">Delivering</string>
     <string name="notification_title">Delivering Status</string>

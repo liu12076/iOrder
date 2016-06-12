@@ -11,7 +11,14 @@
                     "endOffset": 145
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 94,
+                        "endOffset": 145
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 252
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 106,
+                        "endOffset": 252
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 375
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 257,
+                        "endColumn": 122,
+                        "endOffset": 375
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 468
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 92,
+                        "endOffset": 468
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 99,
+                        "endOffset": 568
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 650
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 573,
+                        "endColumn": 81,
+                        "endOffset": 650
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 747
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 655,
+                        "endColumn": 96,
+                        "endOffset": 747
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 855
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 752,
+                        "endColumn": 107,
+                        "endOffset": 855
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 931
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 860,
+                        "endColumn": 75,
+                        "endOffset": 931
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 936,
+                        "endColumn": 75,
+                        "endOffset": 1007
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 1085
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1012,
+                        "endColumn": 77,
+                        "endOffset": 1085
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 1181
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 95,
+                        "endOffset": 1181
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 1277
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1186,
+                        "endColumn": 95,
+                        "endOffset": 1277
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 1372
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1282,
+                        "endColumn": 94,
+                        "endOffset": 1372
+                    }
                 }
             },
             {
@@ -179,7 +277,14 @@
                     "endOffset": 1469
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1377,
+                        "endColumn": 96,
+                        "endOffset": 1469
+                    }
                 }
             },
             {
@@ -191,7 +296,14 @@
                     "endOffset": 1564
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1474,
+                        "endColumn": 94,
+                        "endOffset": 1564
+                    }
                 }
             },
             {
@@ -203,7 +315,14 @@
                     "endOffset": 1664
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1569,
+                        "endColumn": 99,
+                        "endOffset": 1664
+                    }
                 }
             },
             {
@@ -215,7 +334,14 @@
                     "endOffset": 1777
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 112,
+                        "endOffset": 1777
+                    }
                 }
             },
             {
@@ -227,7 +353,14 @@
                     "endOffset": 1871
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1782,
+                        "endColumn": 93,
+                        "endOffset": 1871
+                    }
                 }
             },
             {
@@ -241,11 +374,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 107,
+                        "startOffset": 169,
                         "endColumn": 44,
-                        "endOffset": 147
+                        "endOffset": 209
                     }
                 }
             },
@@ -279,11 +412,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 153,
+                        "startOffset": 215,
                         "endColumn": 42,
-                        "endOffset": 191
+                        "endOffset": 253
                     }
                 }
             },
@@ -298,11 +431,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 454,
+                        "startOffset": 516,
                         "endColumn": 37,
-                        "endOffset": 487
+                        "endOffset": 549
                     }
                 }
             },
@@ -311,17 +444,17 @@
                     "startLine": 25,
                     "startColumn": 4,
                     "startOffset": 2051,
-                    "endColumn": 50,
-                    "endOffset": 2097
+                    "endColumn": 60,
+                    "endOffset": 2107
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 248,
-                        "endColumn": 50,
-                        "endOffset": 294
+                        "startOffset": 107,
+                        "endColumn": 60,
+                        "endOffset": 163
                     }
                 }
             },
@@ -329,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2102,
-                    "endColumn": 52,
-                    "endOffset": 2150
+                    "startOffset": 2112,
+                    "endColumn": 50,
+                    "endOffset": 2158
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 353,
-                        "endColumn": 52,
-                        "endOffset": 401
+                        "startOffset": 310,
+                        "endColumn": 50,
+                        "endOffset": 356
                     }
                 }
             },
@@ -348,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2155,
-                    "endColumn": 51,
-                    "endOffset": 2202
+                    "startOffset": 2163,
+                    "endColumn": 52,
+                    "endOffset": 2211
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 300,
-                        "endColumn": 51,
-                        "endOffset": 347
+                        "startOffset": 415,
+                        "endColumn": 52,
+                        "endOffset": 463
                     }
                 }
             },
@@ -367,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2207,
-                    "endColumn": 49,
-                    "endOffset": 2252
+                    "startOffset": 2216,
+                    "endColumn": 51,
+                    "endOffset": 2263
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 197,
-                        "endColumn": 49,
-                        "endOffset": 242
+                        "startOffset": 362,
+                        "endColumn": 51,
+                        "endOffset": 409
                     }
                 }
             },
@@ -386,30 +519,56 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2257,
-                    "endColumn": 100,
-                    "endOffset": 2353
+                    "startOffset": 2268,
+                    "endColumn": 49,
+                    "endOffset": 2313
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml"
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 259,
+                        "endColumn": 49,
+                        "endOffset": 304
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2358,
+                    "startOffset": 2318,
+                    "endColumn": 100,
+                    "endOffset": 2414
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1876,
+                        "endColumn": 100,
+                        "endOffset": 1972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2419,
                     "endColumn": 45,
-                    "endOffset": 2399
+                    "endOffset": 2460
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 407,
+                        "startOffset": 469,
                         "endColumn": 45,
-                        "endOffset": 448
+                        "endOffset": 510
                     }
                 }
             }

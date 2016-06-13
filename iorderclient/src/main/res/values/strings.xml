@@ -1,18 +1,19 @@
 <resources>
+    <!--myorder_list.xml-->
     <string name="app_name">iOrderClient</string>
     <string name="facebook_app_id">1795079434060958</string>
     <string name="action_settings">Settings</string>
     <string name="mylist">我的訂單</string>
     <string name="processing">配送進度</string>
-
+    <!--add_item.xml-->
     <string name="add_order">訂購資訊</string>
     <string name="store_name">店家名稱</string>
     <string name="orderer">訂購人</string>
-    <string name="pickup_location">取貨地點</string>
-    <string name="dateline">test</string>
+    <string name="pickup_location">取餐地點</string>
+    <string name="dateline">取餐時間</string>
     <string name="cost">外送金額</string>
     <string name="start_order">開始點單</string>
-
+    <!--item_confirm.xml-->
     <string name="orderinfo">訂單資訊</string>
     <string name="item_name">品名</string>
     <string name="price">單價</string>

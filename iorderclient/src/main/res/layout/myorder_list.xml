@@ -8,39 +8,41 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/mylist"
-        android:id="@+id/textView"
+        android:id="@+id/myorder_title"
         android:textSize="20pt"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="0dp"
-        android:layout_above="@+id/listView"
+        android:layout_above="@+id/list"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:background="null"
+        android:id="@+id/add_btn"
         android:src="@mipmap/btn_m"
+        android:background="@android:color/transparent"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
+        android:id="@+id/list"
+        android:background="@android:color/transparent"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageButton"/>
+        android:layout_below="@+id/add_btn"/>
 
-    <Button
+<!--    <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/processing"
-        android:id="@+id/button"
+        android:id="@+id/status_btn"
         android:focusable="false"
         android:background="#FFFF6F"
         android:textSize="20sp"
-        android:layout_alignTop="@+id/listView"
+        android:layout_alignTop="@+id/list"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/textView" />
+        android:layout_toEndOf="@+id/myorder_title" />-->
+
 </RelativeLayout>

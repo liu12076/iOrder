@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:2:1-39:12
 	xmlns:android
 		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xm
 		INJECTED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
@@ -48,6 +48,7 @@ MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Deskt
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.volley:volley:unspecified] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:9:9-35
 	android:label
@@ -88,36 +89,44 @@ MERGED from [com.facebook.android:facebook-android-sdk:4.12.1] C:\Users\User\Des
 	android:name
 		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:20:19-63
 activity#com.eeccs.jimmy.iorderclient.order_list
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:24:9-57
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:24:9-26:20
 	android:name
 		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:24:19-45
+activity#com.eeccs.jimmy.iorderclient.add_list
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:27:9-55
+	android:name
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:27:19-43
+activity#com.eeccs.jimmy.iorderclient.item_list
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:28:19-44
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:25:9-107
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:29:9-107
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:25:20-65
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:29:20-65
 	android:value
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:25:66-105
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:29:66-105
 provider#com.facebook.FacebookContentProvider
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:27:5-29:35
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:32:5-34:35
 	android:exported
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:29:9-32
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:34:9-32
 	android:authorities
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:27:15-93
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:32:15-93
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:28:9-60
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:33:9-60
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:30:5-66
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:35:5-66
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:30:22-64
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:35:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:31:5-81
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:36:5-81
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:31:22-78
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:36:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:32:5-80
+ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:37:5-80
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:32:22-77
+		ADDED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml:37:22-77
 uses-sdk
 INJECTED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
@@ -156,6 +165,7 @@ MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:unspecified] C:\Users\User\Desktop\iOrder\iorderclient\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:7:5-43
 	android:targetSdkVersion
 		INJECTED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User\Desktop\iOrder\iorderclient\src\main\AndroidManifest.xml

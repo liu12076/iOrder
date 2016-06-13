@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\btn_s.png",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\src\\main\\res\\mipmap-xxxhdpi\\btn_s.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\btn_m.png",

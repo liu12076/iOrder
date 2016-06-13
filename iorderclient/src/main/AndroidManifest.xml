@@ -27,6 +27,7 @@
         <activity android:name=".add_list"></activity>
         <activity android:name=".item_list"></activity>
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
     </application>
     <provider android:authorities="com.facebook.app.FacebookContentProvider1795079434060958"
         android:name="com.facebook.FacebookContentProvider"

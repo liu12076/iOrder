@@ -363,7 +363,7 @@
     <string name="cost">外送金額</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
-    <string name="dateline">test</string>
+    <string name="dateline">取餐時間</string>
     <string name="decline">Decline</string>
     <string name="facebook_app_id">1795079434060958</string>
     <string name="item_name">品名</string>
@@ -372,7 +372,7 @@
     <string name="mylist">我的訂單</string>
     <string name="orderer">訂購人</string>
     <string name="orderinfo">訂單資訊</string>
-    <string name="pickup_location">取貨地點</string>
+    <string name="pickup_location">取餐地點</string>
     <string name="price">單價</string>
     <string name="processing">配送進度</string>
     <string name="send">送出</string>

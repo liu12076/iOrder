@@ -30,7 +30,7 @@ import org.json.JSONObject;
 
 public class ApplicationContext extends Application{
     private static final String TAG = ApplicationContext.class.getSimpleName();
-    public static final String ORDER_ID = "ORDER_ID";
+    //public static final String ORDER_ID = "ORDER_ID";
     private static ApplicationContext mInstance;
     public static final String APPLICATION_PREFERENCES = "APPLICATION_PREFERENCES";
     public static final int NOTIFY_SERVICE_ID = 100;
@@ -71,11 +71,11 @@ public class ApplicationContext extends Application{
     }
 
 
-    public static void insert_all_order( int store_id, String order_id, String customer, String pickup_location, String pickup_time,final CallBack callBack) {
+    public static void insert_all_order( int store_id, String customer, String pickup_location, String pickup_time,final CallBack callBack) {
         JSONObject json = new JSONObject();
         try {
             json.put("store_id", String.valueOf(store_id));
-            json.put("order_id", order_id);
+            //json.put("order_id", order_id);
             json.put("customer", customer);
             json.put("pickup_location", pickup_location);
             json.put("pickup_time", pickup_time);

@@ -10,14 +10,14 @@
         android:text="@string/orderinfo"
         android:id="@+id/tv_orderinfo"
         android:textSize="20pt"
-        android:layout_alignBottom="@+id/btn_add2"
+        android:layout_alignBottom="@+id/btn_add"
         android:layout_centerHorizontal="true" />
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="*"
-        android:layout_below="@+id/btn_add2"
+        android:layout_below="@+id/btn_add"
         android:layout_alignParentStart="true"
         android:id="@+id/tableLayout2">
 
@@ -53,15 +53,48 @@
                 android:textSize="15pt"
                 android:textAlignment="center" />
         </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <EditText
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/et_item"
+                android:layout_column="1"
+                android:textSize="15pt"
+                android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/et_num"
+                android:layout_column="3"
+                android:textSize="15pt"
+                android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/et_price"
+                android:layout_column="5"
+                android:textSize="15pt"
+                android:textAlignment="center" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+        </TableRow>
     </TableLayout>
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_add2"
+        android:id="@+id/btn_add"
         android:layout_alignParentTop="true"
         android:src="@mipmap/btn_m"
-        android:background="#FFFFFF"
+        android:background="@null"
         android:layout_alignParentEnd="true" />
 
     <Button
@@ -80,17 +113,15 @@
         android:id="@+id/button4"
         android:textSize="15pt"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/btn_add2" />
+        android:layout_toStartOf="@+id/btn_add" />
 
-    <TextView
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/total_price"
-        android:id="@+id/tv_total"
-        android:textSize="15pt"
-        android:layout_above="@+id/btn_cancel"
-        android:layout_toStartOf="@+id/btn_cancel"
-        android:layout_marginBottom="124dp" />
+        android:id="@+id/list_menu"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableLayout2"
+        android:layout_above="@+id/btn_cancel" />
+
 
 </RelativeLayout>

@@ -27,6 +27,7 @@ import android.widget.TextView;
             et_orderer = (EditText) findViewById(R.id.et_orderer);
             et_pickup_location = (EditText) findViewById(R.id.et_pickup_location);
             et_pickup_time = (EditText) findViewById(R.id.et_pickup_time);
+            btn_startorder = (Button) findViewById(R.id.btn_startorder);
             btn_startorder.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

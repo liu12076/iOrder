@@ -2,12 +2,16 @@ package com.eeccs.jimmy.iorderclient;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
-
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 /**
  * Created by Sherry on 2016/6/10.
  */
@@ -16,6 +20,8 @@ public class order_list extends MainActivity{
     ImageButton add_btn;
     //Button status_btn;
     ListView list;
+    RequestQueue requestQueue;
+    String url = " ";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,12 +30,14 @@ public class order_list extends MainActivity{
         add_btn = (ImageButton)findViewById(R.id.add_btn);
         //status_btn = (Button)findViewById(R.id.status_btn);
         list = (ListView)findViewById(R.id.list);
+        requestQueue = Volley.newRequestQueue();
         add_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setClass(order_list.this, add_list.class);
-               // startActivity(intent);
+                startActivity(intent);
+                Log.d("button","Hello!!!!");
                 //order_list.this.finish();
             }
         });

@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(this.getApplicationContext());
         setContentView(R.layout.activity_main);
+
         Log.d("FB", "onCreate!");
         //宣告callback Manager
         callbackManager = CallbackManager.Factory.create();
@@ -103,20 +104,15 @@ public class MainActivity extends AppCompatActivity {
             isLogin = 1;
         }else {//isLogin = 1
             //Go to order_list
-            Intent intent = new Intent();
-            intent.setClass(MainActivity.this, order_list.class);
-            startActivity(intent);
+            Intent intent_1 = new Intent();
+            intent_1.setClass(MainActivity.this, order_list.class);
+            startActivity(intent_1);
             //MainActivity.this.finish();
 
         }
     }
     @Override
     protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        callbackManager.onActivityResult(requestCode, resultCode, data);
-    }
-     @Override
-     protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         callbackManager.onActivityResult(requestCode, resultCode, data);
     }

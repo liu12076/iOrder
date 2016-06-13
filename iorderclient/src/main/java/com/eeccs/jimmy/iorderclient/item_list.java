@@ -1,6 +1,7 @@
 package com.eeccs.jimmy.iorderclient;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -21,6 +22,9 @@ public class item_list extends add_list{
     ListView list_menu;
     ArrayList<String> listItems;
     ArrayAdapter<String> adapter;
+    private int total_cost = 0;
+    private int num = 0;
+    private int price = 0;
     //EdidText et_orderinfo,et_item,et_num,et_prive,et_total;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,8 +44,19 @@ public class item_list extends add_list{
         btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                listItems.add(et_item.getText().toString() + et_num.getText().toString() +et_price.getText().toString() );
+                num = 0;
+                price = 0;
+                Log.e("TAG",et_num.getText().toString());
+                num = Integer.parseInt(et_num.getText().toString());
+                price = Integer.parseInt(et_price.getText().toString());
+                listItems.add( et_item.getText().toString() +"  "+ et_num.getText().toString() + "  " + et_price.getText().toString());
                 adapter.notifyDataSetChanged();//動態更新
+                total_cost = total_cost + num * price;
+                Log.d("status","total_cost = "+ Integer.toString(total_cost));
+                et_item.setText("");
+                et_num.setText("");
+                et_price.setText("");
+
             }
         });
         list_menu.setOnItemClickListener(new AdapterView.OnItemClickListener() {

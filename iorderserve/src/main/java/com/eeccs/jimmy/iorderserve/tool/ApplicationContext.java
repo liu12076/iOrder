@@ -165,11 +165,12 @@ public class ApplicationContext extends Application{
         VolleyRequestManager.getInstance(getInstance().getApplicationContext()).addToRequestQueue(jsObjRequest);
     }
 
-    public static void up_location(String oid, String lat_lng) {
+    public static void up_location(String oid, String lat, String lng) {
         JSONObject json = new JSONObject();
         try {
             json.put("order_id", oid);
-            json.put("lat_lng", lat_lng);
+            json.put("lat", lat);
+            json.put("lng",lng);
 
         } catch (JSONException e) {
             e.printStackTrace();

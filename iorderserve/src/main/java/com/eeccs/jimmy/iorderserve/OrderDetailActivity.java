@@ -28,6 +28,8 @@ import com.eeccs.jimmy.iorderserve.tool.CallBackContent;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class OrderDetailActivity extends Activity implements View.OnClickListener, LocationListener{
 
@@ -42,8 +44,8 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
     private LocationManager locationMgr;
     private double lng;
     private double lat;
-
-
+    private Timer timer = new Timer();
+    private int count;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,7 +107,7 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
 
         Log.i(TAG, "requestLocationUpdates...");
         // 註冊 listener，兩個 0 不適合在實際環境使用，太耗電
-        this.locationMgr.requestLocationUpdates(provider, 0, 0, this);
+        this.locationMgr.requestLocationUpdates(provider, 10000, 1, this);
 
         Log.i(TAG, "getLastKnownLocation...");
         Location location = this.locationMgr.getLastKnownLocation(provider);
@@ -121,6 +123,12 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
     protected void onPause() {
         super.onPause();
         this.locationMgr.removeUpdates(this);
+    }
+
+    @Override
+    public void onDestroy() {
+        timer.cancel();
+        super.onDestroy();
     }
 
     @Override
@@ -152,10 +160,23 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
             case R.id.button_start:
                 ApplicationContext.notificationServiceStartBuilder(this);
                 ApplicationContext.start_delivering(oid);
+                btn_start_delivering.setEnabled(false);
+                timer = new Timer();
+                count = 0;
+                timer.scheduleAtFixedRate(new TimerTask() {
+                    @Override
+                    public void run() {
+                        count++;
+                        if(count>1)
+                            ApplicationContext.up_location(String.valueOf(oid),String.valueOf(lat),String.valueOf(lng));
+                    }
+                }, 0, 1 * 10 * 1000);//10 sec
                 break;
             case R.id.button_finish:
                 ApplicationContext.cancelNotificationService(this);
                 ApplicationContext.finish_delivering(oid);
+                timer.cancel();
+                finish();
                 break;
         }
     }

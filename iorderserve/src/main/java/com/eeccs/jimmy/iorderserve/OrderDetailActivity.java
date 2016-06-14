@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,7 @@ import android.widget.TextView;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.widget.Toast;
 
 import com.eeccs.jimmy.iorderserve.tool.ApplicationContext;
 import com.eeccs.jimmy.iorderserve.tool.CallBack;
@@ -31,7 +33,7 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class OrderDetailActivity extends Activity implements View.OnClickListener, LocationListener{
+public class OrderDetailActivity extends Activity implements View.OnClickListener{
 
     public static OrderDetailListAdapter mOrderDetailListAdapter;
     public static List<OrderDetailItem> mOrderDetailItems = new ArrayList<OrderDetailItem>();
@@ -41,11 +43,13 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
     private Button btn_finish_delivering;
     private TextView text_total_cost;
     private String oid;
-    private LocationManager locationMgr;
+    private LocationManager mLocationManager;
+    private LocationListener mLocationListener;
     private double lng;
     private double lat;
     private Timer timer = new Timer();
     private int count;
+    String mProviderName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,8 +60,37 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
             verifyFineLocationPermissions(this);
             verifyCoaseLocationPermissions(this);
         }
-        this.locationMgr = (LocationManager) this.getSystemService(LOCATION_SERVICE);
+        //this.locationMgr = (LocationManager) this.getSystemService(LOCATION_SERVICE);
+        mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        mLocationListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(final Location loc) {
+                Log.i(TAG, "onLocationChanged. loc: " + loc);
+                if (loc != null) {
+                    Log.i(TAG, "onLocationChanged. latitude: "
+                            + loc.getLatitude() + " , longtitude: " + loc.getLongitude());
+                    lat = loc.getLatitude();
+                    lng = loc.getLongitude();
+                } else {
+                }
+            }
+
+            // 当系统Setting -> Location & Security -> Use wireless networks取消勾选，Use GPS                    satellites取消勾选时调用
+            public void onProviderDisabled(final String s) {
+                Log.i(TAG, "onProviderDisabled. ");
+            }
+
+            // 当系统Setting -> Location & Security -> Use wireless networks勾选，Use GPS satellites勾           选时调用
+            public void onProviderEnabled(final String s) {
+                Log.i(TAG, "onProviderEnabled. ");
+            }
+
+            public void onStatusChanged(final String s, final int i, final Bundle b) {
+                Log.i(TAG, "onStatusChanged. ");
+            }
+        };
         initView();
+
     }
 
     private void initView() {
@@ -95,63 +128,34 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
     }
 
     @Override
+    public void onStart() {
+        super.onStart();
+        Location lastKnownLocation =mLocationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+        mProviderName = LocationManager.NETWORK_PROVIDER;
+                if (!TextUtils.isEmpty(mProviderName)) {
+                    mLocationManager.requestLocationUpdates(
+                            mProviderName, 1000, 1, mLocationListener);
+                }
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
-        // 取得位置提供者，不下條件，讓系統決定最適用者，true 表示生效的 provider
-        String provider = this.locationMgr.getBestProvider(new Criteria(), true);
-        if (provider == null) {
-            Log.i(TAG,"沒有 location provider 可以使用");
-            return;
+        Log.i(TAG, "onResume. Provider Name: " + mProviderName);
+        if (!TextUtils.isEmpty(mProviderName)) {
+            // 当GPS定位时，在这里注册requestLocationUpdates监听就非常重要而且必要。
+            mLocationManager.requestLocationUpdates(mProviderName, 1000, 1,
+                    mLocationListener);
         }
-        Log.i(TAG,"取得 provider - " + provider);
-
-        Log.i(TAG, "requestLocationUpdates...");
-        // 註冊 listener，兩個 0 不適合在實際環境使用，太耗電
-        this.locationMgr.requestLocationUpdates(provider, 10000, 1, this);
-
-        Log.i(TAG, "getLastKnownLocation...");
-        Location location = this.locationMgr.getLastKnownLocation(provider);
-        if (location == null) {
-            Log.i(TAG, "未取過 location");
-            return;
-        }
-        Log.i(TAG, "取得上次的 location");
-        this.onLocationChanged(location);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        this.locationMgr.removeUpdates(this);
-    }
-
-    @Override
-    public void onDestroy() {
-        timer.cancel();
-        super.onDestroy();
-    }
-
-    @Override
-    public void onLocationChanged(Location location) {
-        lng = location.getLongitude();
-        lat = location.getLatitude();
-        Log.e(TAG,"test lng : " +lng);
-        Log.e(TAG,"test lat : " + lat);
-    }
-
-    @Override
-    public void onStatusChanged(String provider, int status, Bundle extras) {
-        // 當 location provider 改變時
-    }
-
-    @Override
-    public void onProviderEnabled(String provider) {
-        // 當 location provider 有效時
-    }
-
-    @Override
-    public void onProviderDisabled(String provider) {
-        // 當 location provider 無效時
+        // 取消注册监听
+        if (mLocationManager != null) {
+            mLocationManager.removeUpdates(mLocationListener);
+        }
     }
 
     @Override

@@ -30,7 +30,8 @@
         android:id="@+id/list"
         android:background="@android:color/transparent"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/add_btn"/>
+        android:layout_below="@+id/add_btn"
+        android:focusable="false" />
 
 <!--    <Button
         style="?android:attr/buttonStyleSmall"

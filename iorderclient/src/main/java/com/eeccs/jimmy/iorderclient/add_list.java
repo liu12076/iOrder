@@ -39,9 +39,7 @@ import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
             btn_startorder.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = getIntent();
-                    Bundle bundle = intent.getExtras();
-                    //oid =  bundle.getString(ApplicationContext.ORDER_ID);
+
                     store_id = Integer.parseInt(et_store_name.getText().toString());
                     customer = et_orderer.getText().toString();
                     pickup_location = et_pickup_location.getText().toString();
@@ -52,7 +50,20 @@ import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
                             Log.d("status","insert orderinfo success !");
                         }
                     });
-                    Intent it = new Intent();
+                    //建立一個intent
+                    Intent intent = new Intent(add_list.this, order_list.class);
+                    //傳值到order_list.java
+                    Bundle bundle = new Bundle();
+                    //將EditText的值傳入Bundle裡並命名為customer
+                    bundle.putString("customer", customer);
+                    bundle.putInt("store_id", store_id);
+                    Log.d("status","add_list_store_id = "+ Integer.toString(store_id));
+                    setResult(RESULT_OK, intent);// 回傳數值給前一頁
+                    //將bundle傳入
+                    intent.putExtras(bundle);
+                    Intent it = getIntent();
+                    Bundle b2 = it.getExtras();
+                    //oid =  b2.getString(ApplicationContext.ORDER_ID); //傳送order_id
                     it.setClass(add_list.this, item_list.class);
                     startActivity(it);
                 }

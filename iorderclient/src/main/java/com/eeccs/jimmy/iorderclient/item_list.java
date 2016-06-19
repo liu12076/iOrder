@@ -13,6 +13,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.eeccs.jimmy.iorderclient.tool.ApplicationContext;
+import com.eeccs.jimmy.iorderclient.tool.CallBack;
+import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
 
 import java.util.ArrayList;
 
@@ -20,6 +22,7 @@ import java.util.ArrayList;
  * Created by Sherry on 2016/6/13.
  */
 public class item_list extends add_list{
+    private final String TAG = item_list.class.getSimpleName();
     TextView tv_orderinfo,tv_item,tv_num,tv_price,tv_total;
     EditText et_item,et_num,et_price;
     Button btn_send, btn_cancel;
@@ -31,6 +34,7 @@ public class item_list extends add_list{
     private int num = 0;
     private int price = 0;
     StringBuilder total_item,total_num;
+    private String oid, customer, pickup_location, pickup_time;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item_comfirm);
@@ -50,6 +54,10 @@ public class item_list extends add_list{
         total_num = new StringBuilder();
         adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, listItems);
         list_menu.setAdapter(adapter);
+        Intent intent = getIntent();
+        oid = intent.getStringExtra("order_id");
+        Log.e("item_list OID",oid+" ");
+
         btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +87,18 @@ public class item_list extends add_list{
         btn_send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //ApplicationContext.insert_content_by_id();
+
+                ApplicationContext.insert_content_by_id(oid, total_item.toString(), total_num.toString(),String.valueOf(total_cost), new CallBack() {
+                    @Override
+                    public void done(CallBackContent content) {
+                        if (content != null) {
+                            adapter.notifyDataSetChanged();
+                        } else {
+                            Log.e(TAG, "show_child_by_id fail" + "\n");
+                        }
+                    }
+                });
+
                 Intent go_orderlist = new Intent(item_list.this,order_list.class);
                 startActivity(go_orderlist);
                 item_list.this.finish();

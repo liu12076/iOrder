@@ -33,17 +33,6 @@
         android:layout_below="@+id/add_btn"
         android:focusable="false" />
 
-<!--    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/processing"
-        android:id="@+id/status_btn"
-        android:focusable="false"
-        android:background="#FFFF6F"
-        android:textSize="20sp"
-        android:layout_alignTop="@+id/list"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/myorder_title" />-->
+
 
 </RelativeLayout>

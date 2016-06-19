@@ -10,47 +10,76 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.eeccs.jimmy.iorderclient.tool.ApplicationContext;
+import com.eeccs.jimmy.iorderclient.tool.CallBack;
+import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
+
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Sherry on 2016/6/10.
  */
-public class order_list extends MainActivity{
+public class order_list extends MainActivity implements AdapterView.OnItemClickListener {
+
     TextView title;
     ImageButton add_btn;
-    //Button status_btn;
-    ListView list;
-    ArrayList<String> listItems;
-    ArrayAdapter<String> adapter;
+    public static DeliveryListAdapter mDeliveryListAdapter;
+    public static List<DeliveryItem> mDeliveryItems = new ArrayList<DeliveryItem>();
+    private final String TAG = MainActivity.class.getSimpleName();
+    private ListView mListViewOrder;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.myorder_list);
-        title = (TextView)findViewById(R.id.myorder_title);
-        add_btn = (ImageButton)findViewById(R.id.add_btn);
-        //status_btn = (Button)findViewById(R.id.status_btn);
-        list = (ListView)findViewById(R.id.list);
-        listItems = new ArrayList<String>();
-        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, listItems);
-        list.setAdapter(adapter);
+        title = (TextView) findViewById(R.id.myorder_title);
+        add_btn = (ImageButton) findViewById(R.id.add_btn);
+        mDeliveryListAdapter = new DeliveryListAdapter(order_list.this, mDeliveryItems);
+        mListViewOrder = (ListView) findViewById(R.id.list);
+        mListViewOrder.setAdapter(mDeliveryListAdapter);
+        mListViewOrder.setOnItemClickListener(this);
+
         add_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(order_list.this, add_list.class);
                 //requestCode(識別碼) 型別為 int ,從B傳回來的物件將會有一樣的requestCode
-                startActivityForResult(intent,100);
+                //startActivityForResult(intent, 100);
                 //order_list.this.finish();
             }
         });
 
 
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mListViewOrder.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
             }
         });
     }
+
+    private void populateList() {
+        mDeliveryListAdapter.getData().clear();
+        Log.i(TAG, "Initializing ListView....." + mDeliveryListAdapter.getData().size());
+
+        ApplicationContext.show_all_order(1, new CallBack() {
+            @Override
+            public void done(CallBackContent content) {
+                if (content != null) {
+
+                    for (int i = 0; i < content.getShow_order().size(); i++) {
+                        mDeliveryItems.add(content.getShow_order().get(i));
+                        if (mDeliveryItems.size() == content.getShow_order().size())
+                            mDeliveryListAdapter.notifyDataSetChanged();
+                    }
+                } else {
+                    Log.e(TAG, "show_child_by_id fail" + "\n");
+                }
+            }
+        });
+    }
+    /*
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch(RESULT_OK){//resultCode是剛剛妳A切換到B時設的resultCode
@@ -60,16 +89,34 @@ public class order_list extends MainActivity{
                 Log.d("status","order_list get customer : "+customer);
                 int store_id = data.getExtras().getInt("store_id");
                 Log.d("status","order_list get store_id : "+store_id);
-                listItems.add(customer + "     " + store_id);
-                adapter.notifyDataSetChanged();
-                Button btn = new Button(this);
+                mDeliveryListAdapter.notifyDataSetChanged();
+                //Button btn = new Button(this);
                 break;
-
         }
 
-    }
+    }*/
     @Override
     protected void onResume() {
         super.onResume();
+        populateList();
+    }
+
+    /**
+     * Callback method to be invoked when an item in this AdapterView has
+     * been clicked.
+     * <p>
+     * Implementers can call getItemAtPosition(position) if they need
+     * to access the data associated with the selected item.
+     *
+     * @param parent   The AdapterView where the click happened.
+     * @param view     The view within the AdapterView that was clicked (this
+     *                 will be a view provided by the adapter)
+     * @param position The position of the view in the adapter.
+     * @param id       The row id of the item that was clicked.
+     */
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
     }
 }

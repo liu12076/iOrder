@@ -23,6 +23,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.eeccs.jimmy.iorderclient.DeliveryItem;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -48,6 +49,7 @@ public class ApplicationContext extends Application{
     public static final String BACKEND_API_URL = "http://140.113.203.226/~jimmy/iOrderPHP/";
     public static final String INSERT_ALL_ORDER = BACKEND_API_URL + "insert_all_order.php";
     public static final String INSERT_CONTENT_BY_ID = BACKEND_API_URL + "insert_content_by_id.php";
+    public static final String SHOW_ALL_ORDER = BACKEND_API_URL + "show_all_order.php";
 
     public static ApplicationContext getInstance(){
         ApplicationContext mApplication = mInstance;
@@ -70,7 +72,47 @@ public class ApplicationContext extends Application{
         SharedPreferences mPref = getSharedPreferences(APPLICATION_PREFERENCES, Context.MODE_PRIVATE);
     }
 
+    public static void show_all_order(final int store_id, final CallBack callBack) {
+        JSONObject json = new JSONObject();
+        try {
+            json.put("store_id", String.valueOf(store_id));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
+        JsonObjectRequest jsObjRequest = new JsonObjectRequest
+                (Request.Method.POST, SHOW_ALL_ORDER, json, new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        try{
+                            Log.i(TAG, response.toString());
+                            CallBackContent content=new CallBackContent();
+                            JSONArray data = response.getJSONArray("data");
+                            for(int i=0; i<data.length(); i++) {
+                                String order_id =  ((JSONObject) data.get(i)).getString("order_id");
+                                String customer = ((JSONObject) data.get(i)).getString("customer");
+                                String pickup_location = ((JSONObject) data.get(i)).getString("pickup_location");
+                                String pickup_time = ((JSONObject) data.get(i)).getString("pickup_time");
+                                int start_flag =  Integer.parseInt(((JSONObject) data.get(i)).getString("start_flag"));
+                                int end_flag =  Integer.parseInt(((JSONObject) data.get(i)).getString("end_flag"));
+                                DeliveryItem returnedOrder = new DeliveryItem(order_id,String.valueOf(store_id),customer,pickup_location,pickup_time,start_flag,end_flag);
+                                content.show_order.add(returnedOrder);
+                            }
+                            callBack.done(content);
+                        }catch (JSONException e){
+                            e.printStackTrace();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.i(TAG, error.toString());
+                    }
+                });
+        //no cache
+        jsObjRequest.setShouldCache(false);
+        VolleyRequestManager.getInstance(getInstance().getApplicationContext()).addToRequestQueue(jsObjRequest);
+    }
     public static void insert_all_order( int store_id, String customer, String pickup_location, String pickup_time,final CallBack callBack) {
         JSONObject json = new JSONObject();
         try {
@@ -88,10 +130,15 @@ public class ApplicationContext extends Application{
                 (Request.Method.POST, INSERT_ALL_ORDER, json, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Log.i(TAG, response.toString());
-                        CallBackContent content=new CallBackContent();
-                        content.result = response.toString();
-                        callBack.done(content);
+                        try{
+                            Log.i(TAG, response.toString());
+                            JSONObject data = response.getJSONObject("data");
+                            CallBackContent content=new CallBackContent();
+                            content.oid = data.getString("order_id");
+                            callBack.done(content);
+                        }catch (JSONException e){
+                            e.printStackTrace();
+                        }
                     }
                 }, new Response.ErrorListener() {
                     @Override

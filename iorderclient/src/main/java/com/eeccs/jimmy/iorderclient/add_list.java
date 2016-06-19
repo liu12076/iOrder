@@ -23,6 +23,7 @@ import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
         Button btn_startorder;
         private int store_id=1;
         private String oid, customer, pickup_location, pickup_time;
+
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -47,25 +48,18 @@ import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
                     ApplicationContext.insert_all_order(store_id,customer, pickup_location, pickup_time, new CallBack(){
                         @Override
                         public void done(CallBackContent content) {
+                            oid = content.getOid();
+                            Log.d("OID",oid);
                             Log.d("status","insert orderinfo success !");
+                            Intent intent = new Intent();
+                            intent.putExtra("order_id",oid );
+                            Log.e("GetOID",oid+" ");
+                            intent.setClass(add_list.this, item_list.class);
+                            startActivity(intent);
                         }
                     });
                     //建立一個intent
-                    Intent intent = new Intent(add_list.this, order_list.class);
-                    //傳值到order_list.java
-                    Bundle bundle = new Bundle();
-                    //將EditText的值傳入Bundle裡並命名為customer
-                    bundle.putString("customer", customer);
-                    bundle.putInt("store_id", store_id);
-                    Log.d("status","add_list_store_id = "+ Integer.toString(store_id));
-                    setResult(RESULT_OK, intent);// 回傳數值給前一頁
-                    //將bundle傳入
-                    intent.putExtras(bundle);
-                    Intent it = getIntent();
-                    Bundle b2 = it.getExtras();
-                    //oid =  b2.getString(ApplicationContext.ORDER_ID); //傳送order_id
-                    it.setClass(add_list.this, item_list.class);
-                    startActivity(it);
+
                 }
             });
          }

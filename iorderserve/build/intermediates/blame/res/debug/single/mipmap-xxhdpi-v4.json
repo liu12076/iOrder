@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }

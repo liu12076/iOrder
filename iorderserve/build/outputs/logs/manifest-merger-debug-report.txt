@@ -1,233 +1,233 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:2:1-55:12
-	xmlns:android
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:2:11-69
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:5:5-68
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:5:5-68
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:5:22-65
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:5:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:6:5-74
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:6:5-74
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:6:22-71
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:6:22-71
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:21:5-78
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:21:5-78
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:8:22-76
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:9:5-81
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:9:22-78
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:10:5-80
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:10:22-77
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:12:5-75
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:12:5-75
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:12:22-72
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:12:22-72
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:14:5-79
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:14:22-76
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:14:22-76
 application
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:16:5-50:19
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.volley:volley:unspecified] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.1] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.1\AndroidManifest.xml:28:5-37:19
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:16:5-50:19
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.volley:volley:unspecified] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.13.1] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.1\AndroidManifest.xml:28:5-37:19
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:20:9-41
 	android:supportsRtl
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:21:9-35
-	android:label
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:20:9-41
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:21:9-35
 	android:allowBackup
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:18:9-35
 	android:icon
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:19:9-43
 	android:theme
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:22:9-40
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:17:9-48
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:17:9-48
 activity#com.eeccs.jimmy.iorderserve.LoginActivity
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:23:9-32:20
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:23:9-32:20
 	android:screenOrientation
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:25:13-49
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:25:13-49
 	android:label
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:24:13-42
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:24:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:30:27-74
 activity#com.facebook.FacebookActivity
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:33:9-36:48
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.1] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.1\AndroidManifest.xml:29:9-32:75
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:33:9-36:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.13.1] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.1\AndroidManifest.xml:29:9-32:75
 	android:label
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:36:13-45
 	android:configChanges
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:34:13-96
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:34:13-96
 	android:theme
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:35:13-72
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:35:13-72
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:33:19-63
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:33:19-63
 activity#com.eeccs.jimmy.iorderserve.MainActivity
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:38:9-43:20
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:38:9-43:20
 	android:screenOrientation
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:41:13-49
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:41:13-49
 	android:label
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:40:13-45
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:40:13-45
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:39:13-41
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:39:13-41
 activity#com.eeccs.jimmy.iorderserve.OrderDetailActivity
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:44:9-48:20
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:44:9-48:20
 	android:screenOrientation
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:46:13-49
 	android:label
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:47:13-45
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:47:13-45
 	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:45:13-48
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:45:13-48
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:49:9-107
-	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:49:20-65
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:49:9-107
 	android:value
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:49:66-105
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:49:66-105
+	android:name
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:49:20-65
 provider#com.facebook.FacebookContentProvider
-ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:51:5-54:35
-	android:exported
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:54:9-32
+ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:51:5-54:35
 	android:authorities
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:53:9-87
-	android:name
-		ADDED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml:52:9-60
-uses-sdk
-INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.volley:volley:unspecified] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:7:5-43
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.1] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.1\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.android:audience-network-sdk:4.12.1] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\audience-network-sdk\4.12.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-	android:targetSdkVersion
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\iOrder\iorderserve\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
-activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.12.1] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.1\AndroidManifest.xml:33:9-36:20
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:53:9-87
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.1] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.1\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:54:9-32
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.1] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.1\AndroidManifest.xml:34:13-58
+		ADDED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml:52:9-60
+uses-sdk
+INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:unspecified] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.13.1] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:audience-network-sdk:4.12.1] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\audience-network-sdk\4.12.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\src\main\AndroidManifest.xml
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.13.1] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.1\AndroidManifest.xml:33:9-36:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.13.1] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.1\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.13.1] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.1\AndroidManifest.xml:34:13-58
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:28:13-122
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:28:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:29:13-61
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:29:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:27:13-65
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:27:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:31:13-50
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:19-91
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:19-91
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:22:13-58
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Sherry\Desktop\Android project\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:22:13-58

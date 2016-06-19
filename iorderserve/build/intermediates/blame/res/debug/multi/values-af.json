@@ -746,5 +746,753 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\res\\merged\\debug\\values-af\\values-af.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 103,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 103,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 107,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 107,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 122,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 122,
+                        "endOffset": 389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 99,
+                    "endOffset": 535
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 99,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 540,
+                    "endColumn": 105,
+                    "endOffset": 641
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 496,
+                        "endColumn": 105,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 646,
+                    "endColumn": 84,
+                    "endOffset": 726
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 84,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 731,
+                    "endColumn": 102,
+                    "endOffset": 829
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 689,
+                        "endColumn": 102,
+                        "endOffset": 787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 834,
+                    "endColumn": 117,
+                    "endOffset": 947
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 793,
+                        "endColumn": 117,
+                        "endOffset": 906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 952,
+                    "endColumn": 75,
+                    "endOffset": 1023
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 912,
+                        "endColumn": 75,
+                        "endOffset": 983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1028,
+                    "endColumn": 76,
+                    "endOffset": 1100
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 989,
+                        "endColumn": 76,
+                        "endOffset": 1061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1105,
+                    "endColumn": 80,
+                    "endOffset": 1181
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1067,
+                        "endColumn": 80,
+                        "endOffset": 1143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1186,
+                    "endColumn": 106,
+                    "endOffset": 1288
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1149,
+                        "endColumn": 106,
+                        "endOffset": 1251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1293,
+                    "endColumn": 102,
+                    "endOffset": 1391
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1257,
+                        "endColumn": 102,
+                        "endOffset": 1355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1396,
+                    "endColumn": 96,
+                    "endOffset": 1488
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1361,
+                        "endColumn": 96,
+                        "endOffset": 1453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1493,
+                    "endColumn": 107,
+                    "endOffset": 1596
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1459,
+                        "endColumn": 107,
+                        "endOffset": 1562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1601,
+                    "endColumn": 101,
+                    "endOffset": 1698
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1568,
+                        "endColumn": 101,
+                        "endOffset": 1665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1703,
+                    "endColumn": 101,
+                    "endOffset": 1800
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1671,
+                        "endColumn": 101,
+                        "endOffset": 1768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1805,
+                    "endColumn": 116,
+                    "endOffset": 1917
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1774,
+                        "endColumn": 116,
+                        "endOffset": 1886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1922,
+                    "endColumn": 97,
+                    "endOffset": 2015
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1892,
+                        "endColumn": 97,
+                        "endOffset": 1985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2020,
+                    "endColumn": 167,
+                    "endOffset": 2183
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 167,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2188,
+                    "endLine": 23,
+                    "endColumn": 23,
+                    "endOffset": 2303
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endLine": 4,
+                        "endColumn": 23,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2308,
+                    "endColumn": 124,
+                    "endOffset": 2428
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 124,
+                        "endOffset": 463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2433,
+                    "endColumn": 93,
+                    "endOffset": 2522
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 468,
+                        "endColumn": 93,
+                        "endOffset": 557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2527,
+                    "endColumn": 66,
+                    "endOffset": 2589
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 562,
+                        "endColumn": 66,
+                        "endOffset": 624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2594,
+                    "endColumn": 70,
+                    "endOffset": 2660
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 629,
+                        "endColumn": 70,
+                        "endOffset": 695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2665,
+                    "endColumn": 61,
+                    "endOffset": 2722
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 700,
+                        "endColumn": 61,
+                        "endOffset": 757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2727,
+                    "endColumn": 75,
+                    "endOffset": 2798
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 762,
+                        "endColumn": 75,
+                        "endOffset": 833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2803,
+                    "endColumn": 73,
+                    "endOffset": 2872
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 838,
+                        "endColumn": 73,
+                        "endOffset": 907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2877,
+                    "endColumn": 91,
+                    "endOffset": 2964
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 912,
+                        "endColumn": 91,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2969,
+                    "endColumn": 73,
+                    "endOffset": 3038
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endColumn": 73,
+                        "endOffset": 1073
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3043,
+                    "endColumn": 73,
+                    "endOffset": 3112
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1078,
+                        "endColumn": 73,
+                        "endOffset": 1147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3117,
+                    "endColumn": 82,
+                    "endOffset": 3195
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1152,
+                        "endColumn": 82,
+                        "endOffset": 1230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3200,
+                    "endColumn": 98,
+                    "endOffset": 3294
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1235,
+                        "endColumn": 98,
+                        "endOffset": 1329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3299,
+                    "endColumn": 63,
+                    "endOffset": 3358
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1334,
+                        "endColumn": 63,
+                        "endOffset": 1393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3363,
+                    "endColumn": 63,
+                    "endOffset": 3422
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1398,
+                        "endColumn": 63,
+                        "endOffset": 1457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3427,
+                    "endColumn": 131,
+                    "endOffset": 3554
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1462,
+                        "endColumn": 131,
+                        "endOffset": 1589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3559,
+                    "endColumn": 250,
+                    "endOffset": 3805
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.4.0\\res\\values-af\\common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 173,
+                        "endColumn": 254,
+                        "endOffset": 423
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3810,
+                    "endColumn": 60,
+                    "endOffset": 3866
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1594,
+                        "endColumn": 60,
+                        "endOffset": 1650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3871,
+                    "endColumn": 100,
+                    "endOffset": 3967
+                },
+                "from": {
+                    "file": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1991,
+                        "endColumn": 100,
+                        "endOffset": 2087
+                    }
+                }
+            }
+        ]
     }
 ]

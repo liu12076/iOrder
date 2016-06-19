@@ -97,7 +97,7 @@ public class MapsActivity extends FragmentActivity {
             public void run() {
                 count++;
                 if (count > 1) {
-                    ApplicationContext.get_location("1", new CallBack() {
+                    ApplicationContext.get_location(oid, new CallBack() {
                         @Override
                         public void done(CallBackContent content) {
                             if (content != null) {

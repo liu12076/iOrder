@@ -109,7 +109,7 @@ public class OrderDetailActivity extends Activity implements View.OnClickListene
         mOrderDetailListAdapter.getData().clear();
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
-       oid =  bundle.getString(ApplicationContext.ORDER_ID);
+        oid =  bundle.getString(ApplicationContext.ORDER_ID);
         ApplicationContext.show_content_by_id(oid, new CallBack() {
             @Override
             public void done(CallBackContent content) {

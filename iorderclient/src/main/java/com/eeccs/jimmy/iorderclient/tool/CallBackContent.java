@@ -11,6 +11,7 @@ import java.util.List;
 public class CallBackContent {
     String result;
     String oid;
+    String pickup_location;
     List<DeliveryItem> show_order = new ArrayList<DeliveryItem>();
     double lat;
     double lng;
@@ -21,6 +22,10 @@ public class CallBackContent {
     public String getOid()
     {
         return this.oid;
+    }
+    public String getPickupLocation()
+    {
+        return this.pickup_location;
     }
     public List<DeliveryItem> getShow_order() {
         return this.show_order;

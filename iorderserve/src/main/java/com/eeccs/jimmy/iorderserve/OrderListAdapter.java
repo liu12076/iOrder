@@ -69,7 +69,6 @@ public class OrderListAdapter extends BaseAdapter {
         // the viewholder pattern for performance
         ViewHolder viewHolder = new ViewHolder();
         if (view == null) {
-
             // inflate the layout, see how we can use this context reference?
             LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
             view = inflater.inflate(R.layout.list_order_item, parent, false);

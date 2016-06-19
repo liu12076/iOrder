@@ -29,7 +29,6 @@ public class DeliveryListAdapter extends BaseAdapter{
     public List<DeliveryItem> getData() {
         return mData;
     }
-
     private static class ViewHolder {
         public TextView name;
         public TextView place;

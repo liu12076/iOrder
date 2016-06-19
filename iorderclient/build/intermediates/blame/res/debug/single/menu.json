@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\src\\main\\res\\menu\\menu_main.xml"
     }

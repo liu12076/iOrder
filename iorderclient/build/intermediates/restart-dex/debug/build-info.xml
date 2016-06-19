@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="928802588389901"
+    token="-1252024273484387888" >
+
+    <task
+        name="javac"
+        duration="6850" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="4871" />
+    <task
+        name="verifier"
+        duration="2383" />
+
+    <artifact
+        location="C:\Users\Sherry\Desktop\Android project\iOrder\iorderclient\build\outputs\apk\iorderclient-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="928802588389901" >
+        <artifact
+            location="C:\Users\Sherry\Desktop\Android project\iOrder\iorderclient\build\outputs\apk\iorderclient-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

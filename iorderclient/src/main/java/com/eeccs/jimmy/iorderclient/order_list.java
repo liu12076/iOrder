@@ -1,4 +1,5 @@
 package com.eeccs.jimmy.iorderclient;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,7 +21,7 @@ import java.util.List;
 /**
  * Created by Sherry on 2016/6/10.
  */
-public class order_list extends MainActivity implements AdapterView.OnItemClickListener {
+public class order_list extends Activity /*implements AdapterView.OnItemClickListener*/ {
 
     TextView title;
     ImageButton add_btn;
@@ -36,11 +37,11 @@ public class order_list extends MainActivity implements AdapterView.OnItemClickL
         title = (TextView) findViewById(R.id.myorder_title);
         add_btn = (ImageButton) findViewById(R.id.add_btn);
         mDeliveryListAdapter = new DeliveryListAdapter(order_list.this, mDeliveryItems);
-        mListViewOrder = (ListView) findViewById(R.id.list);
+        mListViewOrder = (ListView) findViewById(R.id.order_list);
         mListViewOrder.setAdapter(mDeliveryListAdapter);
-        mListViewOrder.setOnItemClickListener(this);
+        //mListViewOrder.setOnItemClickListener(this);
 
-        add_btn.setOnClickListener(new View.OnClickListener() {
+       /* add_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(order_list.this, add_list.class);
@@ -48,15 +49,7 @@ public class order_list extends MainActivity implements AdapterView.OnItemClickL
                 //startActivityForResult(intent, 100);
                 //order_list.this.finish();
             }
-        });
-
-
-        mListViewOrder.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-            }
-        });
+        });*/
     }
 
     private void populateList() {
@@ -69,12 +62,13 @@ public class order_list extends MainActivity implements AdapterView.OnItemClickL
                 if (content != null) {
 
                     for (int i = 0; i < content.getShow_order().size(); i++) {
-                        mDeliveryItems.add(content.getShow_order().get(i));
+                        DeliveryItem object = content.getShow_order().get(i);
+                        mDeliveryItems.add(object);
                         if (mDeliveryItems.size() == content.getShow_order().size())
                             mDeliveryListAdapter.notifyDataSetChanged();
                     }
                 } else {
-                    Log.e(TAG, "show_child_by_id fail" + "\n");
+                    Log.e(TAG, "show_all_order fail" + "\n");
                 }
             }
         });
@@ -114,9 +108,9 @@ public class order_list extends MainActivity implements AdapterView.OnItemClickL
      * @param position The position of the view in the adapter.
      * @param id       The row id of the item that was clicked.
      */
-
+/*
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-    }
+        Log.i("TAG", "listview clicked");
+    }*/
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="219dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_title"
+            android:textSize="20sp"/>
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="@string/not_yet"
+            android:id="@+id/btn_status"
+            android:focusable="false"
+            android:background="#FFFF6F"
+            android:textSize="20sp"
+            android:layout_gravity="right" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tv_place"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="@string/app_title"
+        android:textSize="15sp"/>
+
+</LinearLayout>

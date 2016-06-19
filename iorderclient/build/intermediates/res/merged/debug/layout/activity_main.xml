@@ -13,7 +13,8 @@
         android:id="@+id/imageView"
         android:src="@mipmap/grid"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
@@ -28,8 +29,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="show message"
+        android:text="iOrder"
         android:id="@+id/tv1"
+        android:textSize="80dp"
         android:layout_marginTop="86dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

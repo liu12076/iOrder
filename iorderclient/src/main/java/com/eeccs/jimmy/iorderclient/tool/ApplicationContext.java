@@ -50,6 +50,7 @@ public class ApplicationContext extends Application{
     public static final String INSERT_ALL_ORDER = BACKEND_API_URL + "insert_all_order.php";
     public static final String INSERT_CONTENT_BY_ID = BACKEND_API_URL + "insert_content_by_id.php";
     public static final String SHOW_ALL_ORDER = BACKEND_API_URL + "show_all_order.php";
+    public static final String GET_LOCATION = BACKEND_API_URL + "get_location.php";
 
     public static ApplicationContext getInstance(){
         ApplicationContext mApplication = mInstance;
@@ -178,6 +179,42 @@ public class ApplicationContext extends Application{
                     public void onErrorResponse(VolleyError error) {
                         Log.i(TAG, error.toString());
                         callBack.done(null);
+                    }
+                });
+        //no cache
+        jsObjRequest.setShouldCache(false);
+        VolleyRequestManager.getInstance(getInstance().getApplicationContext()).addToRequestQueue(jsObjRequest);
+    }
+
+    public static void get_location(final String oid,final CallBack callBack) {
+        JSONObject json = new JSONObject();
+        try {
+            json.put("order_id", oid);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        JsonObjectRequest jsObjRequest = new JsonObjectRequest
+                (Request.Method.POST, GET_LOCATION, json, new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        try{
+                            Log.i(TAG, response.toString());
+                            JSONObject data = response.getJSONObject("data");
+                            CallBackContent content=new CallBackContent();
+                            content.lat = Double.parseDouble(data.getString("lat"));
+                            content.lng= Double.parseDouble(data.getString("lng"));
+                            callBack.done(content);
+                        }catch (JSONException e){
+                            e.printStackTrace();
+                            callBack.done(null);
+                        }
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.i(TAG, error.toString());
                     }
                 });
         //no cache

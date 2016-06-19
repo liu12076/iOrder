@@ -25,24 +25,14 @@
         android:layout_alignParentEnd="true" />
 
     <ListView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/list"
+        android:id="@+id/order_list"
         android:background="@android:color/transparent"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/add_btn"/>
+        android:layout_below="@+id/add_btn"
+        android:layout_marginTop="10dp"
+        />
 
-<!--    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/processing"
-        android:id="@+id/status_btn"
-        android:focusable="false"
-        android:background="#FFFF6F"
-        android:textSize="20sp"
-        android:layout_alignTop="@+id/list"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/myorder_title" />-->
+
 
 </RelativeLayout>

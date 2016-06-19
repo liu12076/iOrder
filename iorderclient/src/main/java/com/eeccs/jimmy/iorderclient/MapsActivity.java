@@ -3,7 +3,11 @@ package com.eeccs.jimmy.iorderclient;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 
+import com.eeccs.jimmy.iorderclient.tool.ApplicationContext;
+import com.eeccs.jimmy.iorderclient.tool.CallBack;
+import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -13,10 +17,18 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class MapsActivity extends FragmentActivity {
+    private double pos_latitude = 24.787081;
+    private double pos_longitude = 120.9971278;
+    private String oid;
     private LatLng Position;
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
-
+    private Timer timer = new Timer();
+    private int count;
+    private Marker marker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,22 +83,52 @@ public class MapsActivity extends FragmentActivity {
         //Move the center position
         mMap.setMyLocationEnabled(true);
         //       mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(NCTU, 16));
-        Intent intent = getIntent();
-        String latitude = intent.getStringExtra("latitude");
-        String longitude = intent.getStringExtra("longitude");
-        double pos_latitude = Double.parseDouble(latitude);
-        double pos_longitude = Double.parseDouble(longitude);
         Position = new LatLng(pos_latitude, pos_longitude);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Position, 15));
-
-        Marker marker = mMap.addMarker(new MarkerOptions().position(Position)
+        marker = mMap.addMarker(new MarkerOptions().position(Position)
                 .title("Position")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+        Intent intent = getIntent();
+        oid = intent.getStringExtra("order_id");
+        timer = new Timer();
+        count = 0;
+        timer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                count++;
+                if (count > 1) {
+                    ApplicationContext.get_location("1", new CallBack() {
+                        @Override
+                        public void done(CallBackContent content) {
+                            if (content != null) {
+                                marker.remove();
+                                pos_latitude = content.getLat();
+                                pos_longitude = content.getLng();
+                                Position = new LatLng(pos_latitude, pos_longitude);
+                                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Position, 15));
+                                marker = mMap.addMarker(new MarkerOptions().position(Position)
+                                        .title("Position")
+                                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
 
+                            } else {
+                                Log.e("TAG", "get_location failed" + "\n");
+                            }
+                        }
+                    });
+                }
+
+            }
+        }, 0, 1 * 10 * 1000);//10 sec
         /*
         mMap.addMarker(new MarkerOptions().position(S4)
                 .title("Star04")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
         */
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        timer.cancel();
     }
 }

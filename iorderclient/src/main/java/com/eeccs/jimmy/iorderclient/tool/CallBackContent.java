@@ -12,6 +12,8 @@ public class CallBackContent {
     String result;
     String oid;
     List<DeliveryItem> show_order = new ArrayList<DeliveryItem>();
+    double lat;
+    double lng;
     public String getResult()
     {
         return this.result;
@@ -22,5 +24,14 @@ public class CallBackContent {
     }
     public List<DeliveryItem> getShow_order() {
         return this.show_order;
+    }
+    public double getLat()
+    {
+        return this.lat;
+    }
+
+    public double getLng()
+    {
+        return this.lng;
     }
 }

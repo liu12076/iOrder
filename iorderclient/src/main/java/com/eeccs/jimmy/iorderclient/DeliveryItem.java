@@ -15,7 +15,6 @@ public class DeliveryItem {
     private String total_cost;
     private int start_flag;
     private int end_flag;
-    private List<DeliveryDetailItem> mDeliveryDetialList = new ArrayList<DeliveryDetailItem>();
     public DeliveryItem(String oid, String store_name, String customer,String pickup_location, String pickup_time, int start_flag, int end_flag) {
         this.oid = oid;
         this.store_name = store_name;
@@ -27,9 +26,6 @@ public class DeliveryItem {
 
     }
 
-    public void addDetailItem(DeliveryDetailItem detial) {
-        this.mDeliveryDetialList.add(detial);
-    }
 
     public void start_delivering()
     {
@@ -72,12 +68,6 @@ public class DeliveryItem {
     public int getEnd_flag()
     {
         return this.end_flag;
-    }
-
-
-    public List<DeliveryDetailItem> getmDeliveryDetialList()
-    {
-        return this.mDeliveryDetialList;
     }
 
 

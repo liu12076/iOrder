@@ -33,8 +33,6 @@ public class LoginActivity extends Activity {
         FacebookSdk.sdkInitialize(getApplicationContext());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-        startActivity(intent);
         //宣告callback Manager
 
         callbackManager = CallbackManager.Factory.create();

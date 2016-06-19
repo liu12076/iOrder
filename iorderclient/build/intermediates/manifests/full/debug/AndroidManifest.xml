@@ -38,7 +38,13 @@
         <activity
             android:name="com.eeccs.jimmy.iorderclient.MainActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.facebook.FacebookActivity"
@@ -46,14 +52,13 @@
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity android:name="com.eeccs.jimmy.iorderclient.order_list" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name="com.eeccs.jimmy.iorderclient.add_list" />
-        <activity android:name="com.eeccs.jimmy.iorderclient.item_list" />
+        <activity
+            android:name="com.eeccs.jimmy.iorderclient.add_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.eeccs.jimmy.iorderclient.item_list"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -64,7 +69,8 @@
 
         <activity
             android:name="com.eeccs.jimmy.iorderclient.MapsActivity"
-            android:label="@string/title_activity_maps" >
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.facebook.CustomTabActivity"

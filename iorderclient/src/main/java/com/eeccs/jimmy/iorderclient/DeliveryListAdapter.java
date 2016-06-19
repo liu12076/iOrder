@@ -2,6 +2,7 @@ package com.eeccs.jimmy.iorderclient;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -11,76 +12,97 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Sherry on 2016/6/18.
  */
-public class DeliveryListAdapter extends BaseAdapter{
-    private final static String TAG = DeliveryListAdapter.class.getSimpleName();
-    private List<DeliveryItem> mData;
-    private Context mContext;
-    //private int isMaster=0;
-    public DeliveryListAdapter(final Context context, final List<DeliveryItem> mData) {
-        this.mData = mData;
-        this.mContext = context;
-    }
-
-    public List<DeliveryItem> getData() {
-        return mData;
-    }
-    private static class ViewHolder {
-        public TextView name;
-        public TextView place;
-        public Button btn_status;
+public class DeliveryListAdapter extends BaseAdapter {
+    Context context;
+    private List<String> listOids = new ArrayList<String>();
+    private List<String> listSids = new ArrayList<String>();
+    private List<String> listLocations = new ArrayList<String>();
+    private List<String> listStartFlags = new ArrayList<String>();
+    private static LayoutInflater inflater=null;
+    public DeliveryListAdapter(Activity a, List<String> Oids, List<String> Sids, List<String> Locations, List<String> StartFlags) {
+        // TODO Auto-generated constructor stub
+        context=a;
+        inflater = ( LayoutInflater )context.
+                getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        listOids = Oids;
+        listSids = Sids;
+        listLocations = Locations;
+        listStartFlags = StartFlags;
     }
     @Override
     public int getCount() {
-        return mData != null ? mData.size() : 0;
+        // TODO Auto-generated method stub
+        return listOids.size();
     }
 
     @Override
-    public Object getItem(int i) {
-        return mData != null ? mData.get(i) : null;
+    public Object getItem(int position) {
+        // TODO Auto-generated method stub
+        return position;
     }
 
     @Override
-    public long getItemId(int i) {
-        return i;
+    public long getItemId(int position) {
+        // TODO Auto-generated method stub
+        return position;
     }
 
+    public class Holder
+    {
+        Button delivering_status;
+        TextView name;
+        TextView place;
+    }
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        View view = convertView;
-        ViewHolder viewHolder = new ViewHolder();
+    public View getView(final int position, View convertView, ViewGroup parent) {
+        // TODO Auto-generated method stub
+        final Holder holder=new Holder();
+        View rowView;
+        rowView = inflater.inflate(R.layout.list_delivery_item, null);
+        holder.name=(TextView) rowView.findViewById(R.id.tv_name);
+        holder.place=(TextView) rowView.findViewById(R.id.tv_place);
+        //holder.like_amount=(TextView) rowView.findViewById(R.id.like_amount);
 
-        if (view == null) {
-            // inflate the layout, see how we can use this context reference?
-            LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
-            view = inflater.inflate(R.layout.list_delivery_item, parent, false);
-            Log.e(TAG, String.format("Get view %d", position));
-            // we'll set up the ViewHolder
-            viewHolder.name      = (TextView) view.findViewById(R.id.tv_name);
-            viewHolder.place     = (TextView) view.findViewById(R.id.tv_place);
-            viewHolder.btn_status  = (Button) view.findViewById(R.id.btn_status);
-            //store the holder with the view.
-            view.setTag(viewHolder);
+        //new UI
 
-        } else {
-            // we've just avoided calling findViewById() on resource every time
-            // just use the viewHolder instead
-            viewHolder = (ViewHolder) view.getTag();
+        holder.delivering_status = (Button) rowView.findViewById(R.id.btn_status);
+        holder.delivering_status.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, MapsActivity.class);
+                intent.putExtra("order_id", listOids.get(position));
+                context.startActivity(intent);
+            }
+        });
+
+        if(listStartFlags.get(position).equals("1"))
+        {
+            holder.delivering_status.setText("配送中");
+            holder.delivering_status.setEnabled(true);
+        }
+        else
+        {
+            holder.delivering_status.setText("未配送");
+            holder.delivering_status.setEnabled(false);
         }
 
-        // object item based on the position
-        DeliveryItem obj = mData.get(position);
-
-        // assign values if the object is not null
-        if (mData != null) {
-            viewHolder.name.setText(obj.getStoreName());
-            viewHolder.place.setText(obj.getStoreName());
-            viewHolder.btn_status.setText("未配送");
-        }
-        return convertView;
+        holder.name.setText(listOids.get(position));
+        holder.place.setText(listLocations.get(position));
+/*
+        rowView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Toast.makeText(context, "You Clicked "+result[position], Toast.LENGTH_LONG).show();
+            }
+        });
+        */
+        return rowView;
     }
 }

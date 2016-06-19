@@ -15,6 +15,9 @@ import com.eeccs.jimmy.iorderclient.tool.CallBack;
 import com.eeccs.jimmy.iorderclient.tool.CallBackContent;
 
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
+
 /**
  * Created by Sherry on 2016/6/10.
  */
@@ -23,8 +26,12 @@ public class order_list extends MainActivity{
     ImageButton add_btn;
     //Button status_btn;
     ListView list;
-    ArrayList<String> listItems;
-    ArrayAdapter<String> adapter;
+    ArrayList<String> listOids;
+    ArrayList<String> listSids;
+    ArrayList<String> listLocations;
+    ArrayList<String> listStartFlags;
+    DeliveryListAdapter deliveryListAdapter;
+    private Timer timer = new Timer();
     private final String TAG = MainActivity.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,9 +41,12 @@ public class order_list extends MainActivity{
         add_btn = (ImageButton)findViewById(R.id.add_btn);
         //status_btn = (Button)findViewById(R.id.status_btn);
         list = (ListView)findViewById(R.id.order_list);
-        listItems = new ArrayList<String>();
-        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, listItems);
-        list.setAdapter(adapter);
+        listOids = new ArrayList<String>();
+        listSids = new ArrayList<String>();
+        listLocations = new ArrayList<String>();
+        listStartFlags = new ArrayList<String>();
+        deliveryListAdapter = new DeliveryListAdapter(order_list.this,listOids,listSids,listLocations,listStartFlags);
+        list.setAdapter(deliveryListAdapter);
 
         add_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +56,7 @@ public class order_list extends MainActivity{
             }
         });
 
-
+/*
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -54,7 +64,7 @@ public class order_list extends MainActivity{
                 intent.putExtra("order_id", listItems.get(position));
                 startActivity(intent);
             }
-        });
+        });*/
     }
     private void populateList() {
         //adapter.getData().clear();
@@ -64,12 +74,18 @@ public class order_list extends MainActivity{
             @Override
             public void done(CallBackContent content) {
                 if (content != null) {
-                    listItems.clear();
+                    listOids.clear();
+                    listSids.clear();
+                    listLocations.clear();
+                    listStartFlags.clear();
                     for (int i = 0; i < content.getShow_order().size(); i++) {
                         //DeliveryItem object = content.getShow_order().get(i);
-                        listItems.add(content.getShow_order().get(i).getOid());
-                        if ( listItems.size() == content.getShow_order().size())
-                            adapter.notifyDataSetChanged();
+                        listOids.add(content.getShow_order().get(i).getOid());
+                        listSids.add("1");
+                        listLocations.add(content.getShow_order().get(i).getPickup_location());
+                        listStartFlags.add(String.valueOf(content.getShow_order().get(i).getStart_flag()));
+                        if ( listOids.size() == content.getShow_order().size())
+                            deliveryListAdapter.notifyDataSetChanged();
                     }
                 } else {
                     Log.e(TAG, "show_all_order fail" + "\n");
@@ -96,9 +112,26 @@ public class order_list extends MainActivity{
     @Override
     protected void onResume() {
         super.onResume();
-        populateList();
+        timer = new Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                populateList();
+            }
+        }, 0, 1 * 10 * 1000);//10 sec
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        timer.cancel();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        timer.cancel();
+    }
 }
 
 

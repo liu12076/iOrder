@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Sherry\Desktop\Android project\iOrder\volley\src\main\assets"/><source path="C:\Users\Sherry\Desktop\Android project\iOrder\volley\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\Sherry\Desktop\Android project\iOrder\volley\src\release\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\User\Desktop\iOrder\volley\src\main\assets"/><source path="C:\Users\User\Desktop\iOrder\volley\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\User\Desktop\iOrder\volley\src\release\assets"/></dataSet></merger>

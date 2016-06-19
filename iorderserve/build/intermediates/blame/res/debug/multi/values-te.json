@@ -354,17 +354,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 139,
-                    "endOffset": 190
+                    "endColumn": 178,
+                    "endOffset": 229
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 139,
-                        "endOffset": 190
+                        "endColumn": 178,
+                        "endOffset": 229
                     }
                 }
             },
@@ -372,18 +372,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 195,
+                    "startOffset": 234,
                     "endColumn": 130,
-                    "endOffset": 321
+                    "endOffset": 360
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 195,
+                        "startOffset": 234,
                         "endColumn": 130,
-                        "endOffset": 321
+                        "endOffset": 360
                     }
                 }
             },
@@ -391,18 +391,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 326,
+                    "startOffset": 365,
                     "endColumn": 119,
-                    "endOffset": 441
+                    "endOffset": 480
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 326,
+                        "startOffset": 365,
                         "endColumn": 119,
-                        "endOffset": 441
+                        "endOffset": 480
                     }
                 }
             },
@@ -410,18 +410,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 446,
+                    "startOffset": 485,
                     "endColumn": 93,
-                    "endOffset": 535
+                    "endOffset": 574
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 446,
+                        "startOffset": 485,
                         "endColumn": 93,
-                        "endOffset": 535
+                        "endOffset": 574
                     }
                 }
             },
@@ -429,18 +429,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 540,
+                    "startOffset": 579,
                     "endColumn": 85,
-                    "endOffset": 621
+                    "endOffset": 660
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 540,
+                        "startOffset": 579,
                         "endColumn": 85,
-                        "endOffset": 621
+                        "endOffset": 660
                     }
                 }
             },
@@ -448,18 +448,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 626,
+                    "startOffset": 665,
                     "endColumn": 84,
-                    "endOffset": 706
+                    "endOffset": 745
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 626,
+                        "startOffset": 665,
                         "endColumn": 84,
-                        "endOffset": 706
+                        "endOffset": 745
                     }
                 }
             },
@@ -467,18 +467,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 711,
+                    "startOffset": 750,
                     "endColumn": 66,
-                    "endOffset": 773
+                    "endOffset": 812
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 711,
+                        "startOffset": 750,
                         "endColumn": 66,
-                        "endOffset": 773
+                        "endOffset": 812
                     }
                 }
             },
@@ -486,18 +486,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 778,
+                    "startOffset": 817,
                     "endColumn": 75,
-                    "endOffset": 849
+                    "endOffset": 888
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 778,
+                        "startOffset": 817,
                         "endColumn": 75,
-                        "endOffset": 849
+                        "endOffset": 888
                     }
                 }
             },
@@ -505,18 +505,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 854,
+                    "startOffset": 893,
                     "endColumn": 76,
-                    "endOffset": 926
+                    "endOffset": 965
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 854,
+                        "startOffset": 893,
                         "endColumn": 76,
-                        "endOffset": 926
+                        "endOffset": 965
                     }
                 }
             },
@@ -524,18 +524,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 931,
+                    "startOffset": 970,
                     "endColumn": 92,
-                    "endOffset": 1019
+                    "endOffset": 1058
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 931,
+                        "startOffset": 970,
                         "endColumn": 92,
-                        "endOffset": 1019
+                        "endOffset": 1058
                     }
                 }
             },
@@ -543,18 +543,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1024,
+                    "startOffset": 1063,
                     "endColumn": 81,
-                    "endOffset": 1101
+                    "endOffset": 1140
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1024,
+                        "startOffset": 1063,
                         "endColumn": 81,
-                        "endOffset": 1101
+                        "endOffset": 1140
                     }
                 }
             },
@@ -562,18 +562,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1106,
+                    "startOffset": 1145,
                     "endColumn": 81,
-                    "endOffset": 1183
+                    "endOffset": 1222
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1106,
+                        "startOffset": 1145,
                         "endColumn": 81,
-                        "endOffset": 1183
+                        "endOffset": 1222
                     }
                 }
             },
@@ -581,18 +581,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1188,
+                    "startOffset": 1227,
                     "endColumn": 87,
-                    "endOffset": 1271
+                    "endOffset": 1310
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1188,
+                        "startOffset": 1227,
                         "endColumn": 87,
-                        "endOffset": 1271
+                        "endOffset": 1310
                     }
                 }
             },
@@ -600,18 +600,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1276,
+                    "startOffset": 1315,
                     "endColumn": 108,
-                    "endOffset": 1380
+                    "endOffset": 1419
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1276,
+                        "startOffset": 1315,
                         "endColumn": 108,
-                        "endOffset": 1380
+                        "endOffset": 1419
                     }
                 }
             },
@@ -619,18 +619,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1385,
+                    "startOffset": 1424,
                     "endColumn": 62,
-                    "endOffset": 1443
+                    "endOffset": 1482
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1385,
+                        "startOffset": 1424,
                         "endColumn": 62,
-                        "endOffset": 1443
+                        "endOffset": 1482
                     }
                 }
             },
@@ -638,18 +638,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1448,
+                    "startOffset": 1487,
                     "endColumn": 77,
-                    "endOffset": 1521
+                    "endOffset": 1560
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1448,
+                        "startOffset": 1487,
                         "endColumn": 77,
-                        "endOffset": 1521
+                        "endOffset": 1560
                     }
                 }
             },
@@ -657,18 +657,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1526,
+                    "startOffset": 1565,
                     "endColumn": 165,
-                    "endOffset": 1687
+                    "endOffset": 1726
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1526,
+                        "startOffset": 1565,
                         "endColumn": 165,
-                        "endOffset": 1687
+                        "endOffset": 1726
                     }
                 }
             },
@@ -676,18 +676,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1692,
+                    "startOffset": 1731,
                     "endColumn": 59,
-                    "endOffset": 1747
+                    "endOffset": 1786
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\values-te\\values-te.xml",
+                    "file": "C:\\Users\\User\\Desktop\\iOrder\\iorderserve\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.13.1\\res\\values-te\\values-te.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1692,
+                        "startOffset": 1731,
                         "endColumn": 59,
-                        "endOffset": 1747
+                        "endOffset": 1786
                     }
                 }
             }

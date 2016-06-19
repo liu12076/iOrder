@@ -37,12 +37,12 @@ public class order_list extends MainActivity{
         listItems = new ArrayList<String>();
         adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, listItems);
         list.setAdapter(adapter);
-        populateList();
+
         add_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(order_list.this, add_list.class);
-
+                startActivity(intent);
             }
         });
 
@@ -51,7 +51,7 @@ public class order_list extends MainActivity{
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(order_list.this, MapsActivity.class);
-                intent.putExtra("order_id",listItems.get(position));
+                intent.putExtra("order_id", listItems.get(position));
                 startActivity(intent);
             }
         });
@@ -64,7 +64,7 @@ public class order_list extends MainActivity{
             @Override
             public void done(CallBackContent content) {
                 if (content != null) {
-
+                    listItems.clear();
                     for (int i = 0; i < content.getShow_order().size(); i++) {
                         //DeliveryItem object = content.getShow_order().get(i);
                         listItems.add(content.getShow_order().get(i).getOid());
@@ -96,6 +96,7 @@ public class order_list extends MainActivity{
     @Override
     protected void onResume() {
         super.onResume();
+        populateList();
     }
 
 }

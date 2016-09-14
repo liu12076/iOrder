@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
-        "source": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
     }

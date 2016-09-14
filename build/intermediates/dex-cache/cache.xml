@@ -1,3 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_37b8d22388147bcf885cecd1bb8f03b8128730ba\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="69a3e631715cb69d7eabaf4711c82f92fa873867">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0201d86e975cdf88aada5e6fecf0f7b656ca00f2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_7b5290bc57f4c743b668cbe0b76e40f355cab725\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_2cdc0c9ab197904f0229160af6a76482ce1dfe31\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_7aa74a5538d8cc3be6b7a296ae8be993fd8257e4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_2b19c120647487ffe5b694957d78bd4cfa215430\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_d943d39588748ee1117c83ea9058a2d6416cb70b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.5.8\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="efba3a95bfd5a7fa40ed0758be78e806818b5449">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.exoplayer-exoplayer-r1.5.8_53372fe8c73df8f0885e1d3e9a52b78238a19e9b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_8b571364c1229a5ecc4fef863acb773b0c466b91\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\audience-network-sdk\4.15.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="afda62e4c46a93e7699dca26309c116a37750856">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-audience-network-sdk-4.15.0_94187d917caeb0c7365222948f11a07ac82a9500\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_bf698457c137a37ab02ed27bddbb12d8968bffb5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a24bebca6812e7268877e37dccb71fbbcc1125e7">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c08bd7ea101282343048d8398f383aca4a4874be\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.15.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="820605b42a2d3d9cb9e6c4cc7453fb4f802aedff">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.15.0_b638dc7924d0b51092fc6018ad445da9c7254a5a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_e967602cedb3cdf27c5916205188b8064fdde338\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_421f77c0e7a66cd8419c41205a802ac80ff1f888\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_d5b7851bff3e5d4792ce88a5c94eb1ef63f741cc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_f25c8b188951d663bc0e411fe0448252be49d495\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_288a44acc1e4f15784bf32d4b62d43d5bb8fb5a3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\User\Desktop\iOrder\iorderserve\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_8a9b1e935392f93b23caa7bed6cbd3eadebf3539\classes.dex" />
+    </item>
+
+</items>

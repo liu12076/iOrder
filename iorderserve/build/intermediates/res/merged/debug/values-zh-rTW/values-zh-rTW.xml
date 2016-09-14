@@ -22,7 +22,7 @@
     <string name="action_logout">登出</string>
     <string name="app_name">iOrderServe</string>
     <string name="app_title">訂單資訊</string>
-    <string name="com_facebook_device_auth_instructions">使用您的智慧型手機或電腦前往 &lt;b>facebook.com/device&lt;/b>&lt;br />，然後輸入此代碼：</string>
+    <string name="com_facebook_device_auth_instructions">使用您的智慧型手機或電腦前往 &lt;b>facebook.com/device&lt;/b>，然後輸入此代碼：</string>
     <string name="com_facebook_image_download_unknown_error">下載圖像時發生非預期的錯誤。</string>
     <string name="com_facebook_internet_permission_error_message">WebView 登入需要「網際網路」授權</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest 錯誤</string>

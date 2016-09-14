@@ -8,11 +8,7 @@
         "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\btn.png",
-        "source": "C:\\Users\\Sherry\\Desktop\\Android project\\iOrder\\iorderclient\\src\\main\\res\\mipmap-xxhdpi\\btn.png"
+        "merged": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_ad_choices.png",
+        "source": "C:\\Users\\User\\Desktop\\iOrder\\iorderclient\\build\\intermediates\\exploded-aar\\com.facebook.android\\audience-network-sdk\\4.15.0\\res\\mipmap-xxhdpi-v4\\ic_ad_choices.png"
     }
 ]
